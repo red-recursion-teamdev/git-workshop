@@ -1,1 +1,11 @@
+.nothing-you-could-do {
+    font-family: 'Nothing You Could Do', cursive;
+}
 
+body {
+    background: linear-gradient(rgb(253, 251, 251), rgb(218, 218, 218));
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+}
