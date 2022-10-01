@@ -29,8 +29,17 @@ body {
 
 /* スライダー */
 .carousel .carousel-item {
-    height: 450px;
     width: auto;
+}
+
+.slider {
+    height: 50vh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* Welcome to Cafe Recursion */
@@ -47,7 +56,10 @@ body {
 
 .card-style {
     background-color: #f1f1f1;
-    box-shadow: rgba(160, 160, 160, 2) 0px 2px 3px 0px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+    transition: 0.3s;
+    margin: 0 8px 8px 8px;
+    padding: 10px;
 }
 
 .card-title {
@@ -56,18 +68,10 @@ body {
     color: #000;
 }
 
-.card-photo {
-    margin: 3px 5px;
-    height: 200px;
-    width: 300px;
-}
-
-.card-photo img{
-    object-fit: cover;
-}
-
 .card-text {
     width: 100%;
     font-size: 1rem;
     color: rgb(0, 0, 0);
+    padding-right: 0px;
+    padding-left: 0px;
 }
